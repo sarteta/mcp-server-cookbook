@@ -121,9 +121,8 @@ python -m my_mcp_server.server
 ## Pattern catalog (deeper dives)
 
 - [`patterns/safety-boundaries.md`](./patterns/safety-boundaries.md) — when to add a `--write` flag and when to refuse
-- [`patterns/iam-narrowing.md`](./patterns/iam-narrowing.md) — building tight IAM policies per tool
-- [`patterns/test-strategy.md`](./patterns/test-strategy.md) — unit + dispatch + integration with moto
-- [`patterns/docstring-contract.md`](./patterns/docstring-contract.md) — what makes a docstring agent-readable
+
+More to come as patterns get extracted from the production servers (IAM narrowing, test strategy with moto, docstring contracts for agent readability). PRs welcome.
 
 ## Why this exists
 
